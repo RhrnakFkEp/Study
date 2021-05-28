@@ -1,0 +1,23 @@
+# git status?
+
+- working tree clean : 현 작업트리에 있는  파일의 상태가 unmodified
+- changes not stage for commit : 파일의 상태가 modified
+- changes to be committed : 파일의 상태가 staged 
+
+---------------------------------------
+# traked, untraked?
+
+traked : 
+한 번이라도 깃에 커밋한 파일로, 깃이 수정여부를 계속 추적함
+untraked:
+한 번도 깃에서 버전관리를 하지 않은 파일. 깃에서 수정내역을 추적하지 않음
+
+---------------------------
+# status
+
+- untraked file : 한 번도 버전관리 하지 않은 파일
+- new file : untraked file을 add했을 때의 상태
+- unmodified : 수정되지 않은 상태. 커밋이 끝난 후의 상태
+- modified : 마지막 버전 이후 수정만 되어있는 상태
+- staged : 커밋 직전 단계
+
